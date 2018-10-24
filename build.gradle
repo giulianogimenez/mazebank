@@ -5,6 +5,8 @@ repositories {
 }
 
 dependencies {
-    testCompile('io.cucumber:cucumber-java:4.0.0', 'io.cucumber:cucumber-junit:4.0.0', 'junit:junit:4.12')
+    testCompile 'io.cucumber:cucumber-java:4.0.0', 'io.cucumber:cucumber-junit:4.0.0', 'junit:junit:4.12'
 }
-
+test {
+    useJUnit()
+}
