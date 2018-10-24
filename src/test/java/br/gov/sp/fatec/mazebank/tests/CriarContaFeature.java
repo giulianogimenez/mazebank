@@ -1,6 +1,8 @@
+package br.gov.sp.fatec.mazebank.tests;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
+import br.gov.sp.fatec.mazebank.Conta;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;

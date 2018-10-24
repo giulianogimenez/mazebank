@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="depositar um valor em uma conta" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-24T18:55:39" hostname="NOTE-08-025699" time="0.004">
+  <properties/>
+  <testcase name="depositando um valor qualquer" classname="depositar um valor em uma conta" time="0.004"/>
+  <system-out><![CDATA[
+Funcionalidade: depositar um valor em uma conta
+	Esta funcionalidade tem por fim efetuar testes de depósito bancário de uma conta
+
+  Cenario: depositando um valor qualquer                                ?[90m# src/test/resource/Depositar.feature:4?[0m
+    ?[32mDado ?[0m?[32mque eu tenho a conta de ?[0m?[32m?[1m"Trevor Phillips"?[0m?[32m do cpf ?[0m?[32m?[1m"12345678909"?[0m ?[90m# DepositarFeature.que_eu_tenho_a_conta_de_do_cpf(String,String)?[0m
+    ?[32mQuando ?[0m?[32meu efetuar um depósito de ?[0m?[32m?[1m1000.0?[0m                             ?[90m# DepositarFeature.eu_efetuar_um_depósito_de(Double)?[0m
+    ?[32mE ?[0m?[32mefetuar outro depósito de ?[0m?[32m?[1m250.0?[0m                                   ?[90m# DepositarFeature.efetuar_outro_depósito_de(Double)?[0m
+    ?[32mEntão ?[0m?[32mo saldo deverá ser de ?[0m?[32m?[1m1250.0?[0m                                  ?[90m# DepositarFeature.o_saldo_deverá_ser_de(Double)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

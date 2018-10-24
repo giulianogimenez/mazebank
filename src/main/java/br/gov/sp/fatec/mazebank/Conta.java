@@ -1,3 +1,4 @@
+package br.gov.sp.fatec.mazebank;
 
 /**
  * @author giuliano
