@@ -1,9 +1,7 @@
-# language:pt
-# encoding: utf-8
-Funcionalidade: depositar um valor em uma conta
+Feature: depositar um valor em uma conta
 	Esta funcionalidade tem por fim efetuar testes de depósito bancário de uma conta
-	Cenário: depositando um valor qualquer
-		Dado que eu tenho a conta de "Trevor Phillips" do cpf "12345678909"
-		Quando eu efetuar um depósito de 1000.0
-		E efetuar outro depósito de 250.0
-		Então o saldo depósito ser de 1250.0
+	Scenario: depositando um valor qualquer
+		Given que eu tenho a conta de "Trevor Phillips" do cpf "12345678909"
+		When eu efetuar um deposito de 1000.0
+		And efetuar outro deposito de 250.0
+		Then o saldo deposito dever ser de 1250.0

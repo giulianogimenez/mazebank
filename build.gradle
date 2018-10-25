@@ -10,7 +10,9 @@ repositories {
 }
 
 dependencies {
-    testCompile 'io.cucumber:cucumber-java:4.0.0', 'io.cucumber:cucumber-junit:4.0.0', 'junit:junit:4.12'
+    testCompile('io.cucumber:cucumber-java:4.0.0', 'io.cucumber:cucumber-junit:4.0.0')
+    testCompileOnly('org.junit.jupiter:junit-jupiter-api:5.3.1')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.1.0')
 }
 test {
     useJUnit()
