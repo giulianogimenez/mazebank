@@ -4,7 +4,7 @@ import static org.junit.Assert.assertNull;
 
 import br.gov.sp.fatec.mazebank.Conta;
 import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.Ent√£o;
+import cucumber.api.java.pt.Ent„o;
 import cucumber.api.java.pt.Quando;
 
 public class CriarContaFeature {
@@ -19,8 +19,8 @@ public class CriarContaFeature {
 	    conta = new Conta(nome, cpf);
 	}
 
-	@Ent√£o("dever√° emitir o saldo de {double}")
-	public void dever√°_emitir_o_saldo_de(Double saldo) {
+	@Ent„o("dever· emitir o saldo de {double}")
+	public void dever·_emitir_o_saldo_de(Double saldo) {
 		assertEquals(saldo, conta.getSaldo());
 	}
 	
@@ -29,8 +29,8 @@ public class CriarContaFeature {
 		conta = new Conta(nome, "");
 	}
 
-	@Ent√£o("dever√° vir com saldo nulo")
-	public void dever√°_vir_com_saldo_nulo() {
+	@Ent„o("dever· vir com saldo nulo")
+	public void dever·_vir_com_saldo_nulo() {
 		assertNull(conta.getSaldo());
 	}
 
