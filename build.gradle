@@ -1,4 +1,9 @@
-apply plugin: 'java'
+plugins{
+  id 'java'
+  id 'application'
+}
+
+mainClassName = 'br.gov.sp.fatec.mazebank.Program'
 
 repositories {
     mavenCentral()
